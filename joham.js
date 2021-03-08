@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 5000
 
 express()
 
+   /*
    // estamos cargando la carpeta pero de manera estatica 
    .use(express.static(path.join(__dirname, 'public')))
 
@@ -11,7 +12,12 @@ express()
    .set('views', path.join(__dirname, 'view'))
 
      //iniciando el archivo de en /views/pagues/index.ejs
-     
+     */ 
+
+     use(express.static("public"));
+
+     use(express.static("view"));
+
 /* vamos a iniciar el archivo html */
    .get("/", (req, res) =>{
    res.sendFile(path.resolve(__dirname,"view/inicio.html"))
