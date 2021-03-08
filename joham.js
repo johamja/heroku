@@ -6,7 +6,7 @@ express()
 
    
    // estamos cargando la carpeta pero de manera estatica 
-   .use(express.static(path.join(__dirname, 'public/css')))
+   .use(express.static(path.join(__dirname, 'public')))
 
    // cargamos una carpeta normal
    .set('views', path.join(__dirname, 'view'))
