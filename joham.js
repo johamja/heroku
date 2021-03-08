@@ -6,10 +6,10 @@ express()
 
    
    // estamos cargando la carpeta pero de manera estatica 
-   .use(express.static(__dirname + 'public'))
+   .use(express.static(__dirname + '/public'))
 
    // cargamos una carpeta normal
-   .set('views',(__dirname + 'views'))
+   .set('views',(__dirname + '/views'))
      //iniciando el archivo de en /views/pagues/index.ejs
      
    /* vamos a iniciar el archivo html */
