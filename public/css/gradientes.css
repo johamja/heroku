@@ -1,0 +1,26 @@
+
+/* se manejan con un id */
+
+#grand1{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+#baner1{
+    background: rgb(119,193,179);
+    background: linear-gradient(-180deg, rgba(119, 193, 179, 0.26) 5%, rgba(10,14,28,1) 100%);
+}
+
+#boton1{
+    /*background: rgb(130,91,217);
+background: linear-gradient(340deg, rgba(131, 91, 217, 0.60) 0%, rgba(10, 14, 28, 0) 64%);
+*/
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238, 174, 202, 0.233) 0%, rgba(148, 188, 233, 0.219) 100%);
+}
+
+#h2-1{
+  background: linear-gradient(117deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;  
+}

@@ -1,0 +1,37 @@
+
+/* atrivutos de la clase de  inicio.html */
+
+.content{
+    height: 100px;
+    width: 100px;
+}
+
+.baner1{
+    width:1080px;
+    height: 250px;
+}
+
+.baner2{
+    width:1080px;
+    height: auto;
+}
+
+.boton1{
+    border-radius: 10px;
+    border:0px;
+}
+
+.txt1{
+    height:auto;
+    width:1080px;
+    font: size 50px;
+    position: absolute;
+    margin-top: 150px;
+    margin-right: 0%;
+    margin-left: 15px;
+    
+}
+
+.img1{
+    padding-top:35%;
+}
