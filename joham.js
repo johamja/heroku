@@ -21,5 +21,9 @@ express()
      res.sendFile(path.resolve(__dirname,"view/pagina2.html"))
    })
 
+   .get("/jajo2", (req, res) =>{
+     res.sendFile(path.resolve(__dirname,"view/casa.html"))
+   })
+
   // iniciamos el port de heroku
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
