@@ -16,7 +16,10 @@ express()
    .get("/", (req, res) =>{
    res.sendFile(path.resolve(__dirname,"view/inicio.html"))
   })
-
+   
+   .get("/jajo", (req, res) =>{
+     res.sendFile(path.resolve(__dirname,"view/pagina2.html"))
+   })
 
   // iniciamos el port de heroku
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
