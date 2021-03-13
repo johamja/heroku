@@ -12,7 +12,7 @@ express()
    .set('views',(__dirname + '/views'))
      //iniciando el archivo de en /views/pagues/index.ejs
 
-     .set(express.static(__dirname + '/src'))
+     .set('src',(__dirname + '/src'))
      
    /* vamos a iniciar el archivo html */
    .get("/", (req, res) =>{
