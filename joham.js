@@ -11,6 +11,8 @@ express()
    // cargamos una carpeta normal
    .set('views',(__dirname + '/views'))
      //iniciando el archivo de en /views/pagues/index.ejs
+
+     .set('views',(__dirname + '/src'))
      
    /* vamos a iniciar el archivo html */
    .get("/", (req, res) =>{
