@@ -1,0 +1,59 @@
+/* formato de las etiquetas */
+html{
+    background: rgb(254,238,245);
+    background: linear-gradient(0deg, rgba(254,238,245,1) 0%, rgba(213,226,241,1) 100%);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: fixed;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+div{
+    margin: 10px,10px,10px,10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 9px #00000012;
+    
+}
+
+
+
+/* tipos de texto*/
+
+p{
+  
+}
+h1{
+    
+}
+h2{
+    
+
+}
+h3{
+    background: -webkit-linear-gradient(346deg, rgb(70, 200, 61) 0%, rgb(181, 255, 45) 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h4{
+    
+
+}
+
+/* id de degradados #degradado */
+#div-normal{
+  background: rgb(255, 255, 255);
+}
+
+#gr-tx-inicio{
+    background: -webkit-linear-gradient(346deg, rgb(172, 130, 17) 0%, rgb(156, 14, 14) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* class de html .class*/
+.inicio{
+    width: max-width;
+    height: 500px;
+}
