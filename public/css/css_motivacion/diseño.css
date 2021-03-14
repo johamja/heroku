@@ -65,7 +65,7 @@ p{
 
 .img1{
    width: -webkit-fill-available;
-   height: max-content;
+   height: auto;
    align-self: center;
    padding-left: 8%;
    padding-right: 8%;
