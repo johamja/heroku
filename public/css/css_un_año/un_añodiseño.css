@@ -1,0 +1,110 @@
+html{
+    width: 1080px;
+    background-color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+p{
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1{
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size:  80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*clases de div */
+.contenedor1{
+    height: 2000px;
+    border-radius:60px 60px 0 0 ;
+    position: relative;
+    background-image: url(/aa1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aa1{
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+.a1{
+    height: 40%;
+    width: 70%;
+    background-color:#000000a2;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    z-index: 3;
+    backdrop-filter: blur(14px);
+    border-radius:10% 0 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 2500px;
+    color: #fff;
+    background: linear-gradient(0deg, rgb(153, 0, 255) 0%, rgb(0, 153, 255) 50%, rgba(252,176,69,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+.aa2, .bb2,.cc2,.dd2{
+    background-color:rgb(34, 178, 159);
+    border-radius: 20px;
+}
+.aa2{
+    grid-column: 1;
+    grid-row:1 ;
+    background-image: url(/aa2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bb2{
+    grid-column:2 ;
+    grid-row: 2;
+    background-image: url(/bb2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cc2{
+    grid-column: 1;
+    grid-row:3 ;
+    background-image: url(/cc2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dd2{
+    grid-column:2 ;
+    grid-row: 4;
+    background-image: url(/dd2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor3{
+     height: max-content;
+     color: #fff;
+}
+
+.video3{
+    height:auto;
+    width:-webkit-fill-available;
+}
+.aa3{
+    border-radius: 30px;
+    background-image: url(/aa3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

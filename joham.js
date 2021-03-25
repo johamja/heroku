@@ -31,5 +31,9 @@ express()
      res.sendFile(path.resolve(__dirname,"view/motivacion.html"))
    })
 
+   .get("/un_año" , (req, res)=>{
+    res.sendFile(path.resolve(__dirname,"view/un_año.html"))
+  })
+
   // iniciamos el port de heroku
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
