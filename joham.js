@@ -31,7 +31,7 @@ express()
      res.sendFile(path.resolve(__dirname,"view/motivacion.html"))
    })
 
-   .get("/un_año" , (req, res)=>{
+   .get("/una_vida" , (req, res)=>{
     res.sendFile(path.resolve(__dirname,"view/un_año.html"))
   })
 
